@@ -501,9 +501,9 @@ func fileExists(name string) bool {
 // values set in the Filo config file (if present).
 func loadConfig() *Config {
 	cfg := &Config{
-		Speed:            2.0,
+		Speed:            2.5,
 		Scale:            2.0,
-		Quiet:            false,
+		Quiet:            true,
 		MousePassthrough: false,
 		SpriteSheet:      "",
 	}
